@@ -71,6 +71,7 @@ body {
     color: #FFFFFF;
     font-weight: bold;
     font-size: 1rem;
+    cursor: pointer;
 }
 .text-type {
     width: 400px;

@@ -17,7 +17,7 @@ class PostController
             'query' => $comment
         ];
 
-        if (isset($comment)) {
+        if (!empty($comment)) {
             $data['comments'] = ORM::forTable('comments')
                 ->select('posts.title', 'post_title')
                 ->select('comments.body', 'comment_body')
