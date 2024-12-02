@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F1EFEC;
+    font-family: "Noto Sans", sans-serif;
+}
+.page-title {
+    font-size: 2rem;
+    margin: 2rem auto;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.card {
+    background: #FCFCFC;
+    border-radius: 15px;
+    padding: 2rem;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.post__title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.post__comment {
+    line-height: 1.5;
+}
+.post__highlight {
+    background: yellow;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.form__input {
+    width: 100%;
+    min-width: 40px;
+    padding: 1rem 2em;
+    background: #F4F4F4;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+}
+.form__submit {
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 0;
+    max-width: 200px;
+    width: 100%;
+    min-width: 40px;
+    background: #0C68E9;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.text-type {
+    width: 400px;
+    border-radius: 5px;
+}
+.submit-type {
+    width: 70px;
+    height: 40px;
+    border-radius: 7px;
+    color: black;
+    background: bisque;
+}
+.submit-type:hover {
+    background: burlywood;
+    border: 2px solid black;
+    color:white;
+}
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.comment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
