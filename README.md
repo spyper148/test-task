@@ -10,6 +10,7 @@
 ## Запуск
 - Перенести example.env в .env и заполнить.
 - `composer i`
+- `composer du`
 - Перенести структуру базы из data/db.sql
 ## Импорт постов
 `php lib/Comands/import.php`
